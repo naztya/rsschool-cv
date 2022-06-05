@@ -4,9 +4,9 @@
 ---
 ### My Contact Info:
 
-Phone: +38 098 481-25-**
-E-mail: eldess0*@gmail.com
-GitHub: naztya
+* Phone: +38 098 481-25-**
+* E-mail: eldess0*@gmail.com
+* GitHub: naztya
 
 
 ### About Me ###
