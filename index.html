@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+    <!--<img src="./assets/img/pic.jpg" alt="cvPhoto">-->
+    <!--<h2>Anastasiia Nicheporuk</h2>-->
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <section class="section" id="profile">
+            <h1 class="section-title">Anastasiia Nicheporuk</h1>
+            <img src="../rsschool-cv/assets/img/pic.jpg" class="rss" alt="cvPhoto">
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title"Contacts></h2>
+            <ul>
+                <li>Phone: +38 098 481-25-**</li>
+                <li>E-mail: eldess0*@gmail.com</li>
+                <li>GitHub: naztya</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>I am 26 years old, I work as a computer engineer. But I more interesting visual side. That is why I`m here. My goal is to deepen my knowledge of the frontend.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Fundamentals)</li>
+                <li>Photoshop</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <code>
+                function objectPropertiesSum(object) {
+
+                    let values = Object.values(object);
+                    let totalSum = 0;
+                  
+                      for (const value of values) {
+                        if (typeof value === 'number') {
+                          totalSum += value;
+                        } 
+                        else if (value instanceof Object) {
+                          values.push(...Object.values(value));
+                        }
+                      }
+                  
+                      return totalSum;
+                  
+                  }
+            </code>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>Khmelnytskyi National University / Computer Engineering</li>
+            </ul>
+        </section>
+        <section class="section" id="language">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Ukrainian - native speaker</li>
+                <li>English - A2 (B1 in process…)</li>
+                
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
